@@ -135,3 +135,18 @@ footer {
         /* increases the carousel height so it looks good on phones */
     }
 }
+
+
+
+/*ribbion*/
+.ribbon-green {
+    position: relative;
+    padding: 7px 0;
+    left: 1048px;
+    top: -19px;
+    width: 120px;
+    background-color: #BFDC7A;
+    background-image: -webkit-linear-gradient(top, #39a9e0, #03705E);
+    color: white;
+    box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+}
