@@ -8,9 +8,9 @@
                 <input typeof="text" class="form-control" placeholder="search" ng-model="globalSearch.$">
             </div>
         </div>
-        <div class="row" ng-repeat="tuple in data | filter:globalSearch">
+        <div class="code" ng-repeat="tuple in data | filter:globalSearch">
             <div class="row">
-                <div class="col-lg-11">
+                <div class="col-lg-10">
                     <b>Question : {{tuple.question}}</b>
                 </div>
                 <div class="col-lg-1">
