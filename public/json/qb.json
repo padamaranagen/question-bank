@@ -89,6 +89,24 @@
       "answer": "git remote add origin git repository",
       "tag": "git",
       "id": "6fe51b34-2991-476b-9057-81a3dbff210c"
+    },
+    {
+      "question": "bootstrap ribbon",
+      "answer": "http://bootsnipp.com/snippets/a3pyD",
+      "tag": "url",
+      "id": "6d7a09b5-af9b-402e-9d6a-805ed02d6530"
+    },
+    {
+      "question": "What is DreamFactory",
+      "answer": "DreamFactory is an open source REST API platform for mobile, IoT, and web applications. DreamFactory automatically creates REST APIs for SQL, NoSQL, file storage, email, push notifications, remote HTTP services, remote SOAP services, and more.",
+      "tag": "api",
+      "id": "31a70221-d2f3-4415-9f7b-f687e1da6d83"
+    },
+    {
+      "question": "append .csv file using cmd",
+      "answer": "copy *.csv combine.csv, where copy is the name of the command. combine.csv is the name of the combined file",
+      "tag": "cmd",
+      "id": "d20e3f9c-71cc-4ae5-b53b-3fc7e4143079"
     }
   ]
 }
