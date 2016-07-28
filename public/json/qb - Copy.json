@@ -1,0 +1,124 @@
+{
+  "questionbank": [
+    {
+      "id": "1",
+      "question": "What is your name",
+      "answer": "Nagendra Prasad"
+    },
+    {
+      "question": "What is your highest qualification",
+      "answer": "MCA",
+      "id": "f7d98bb6-a092-4c1c-a7c7-ea1489e3acc5"
+    },
+    {
+      "question": "What are you hobbies",
+      "answer": "Listening Music, Playing Cricket",
+      "id": 2
+    },
+    {
+      "question": "How old are you",
+      "answer": 28,
+      "id": "2824f518-16d7-4447-8219-6944d5f490cf"
+    },
+    {
+      "question": "What is Qlik Sense",
+      "answer": "Qlik Sense Enterprise is a governed, server-based data visualization and discovery application ideal for group, department and organization-wide data analytics needs.",
+      "id": "0420d883-ba46-4579-a7a4-4068b393ae56"
+    },
+    {
+      "question": "What are the editions of Qlik sense",
+      "answer": "1. Qliksense Desktop, 2. Qliksense Enterprise, 3. Qliksense Cloud",
+      "id": "2c30ec87-b463-4ca7-873f-14662e3ff497"
+    },
+    {
+      "question": "what is the meaning of abuse",
+      "answer": "the improper use of something.",
+      "id": "409c77c5-8b38-4272-8590-c13f88ceb3e1"
+    },
+    {
+      "question": "How to Add a User and Grant Root Privileges on CentOS 6.5",
+      "answer": "Pre-Flight Check These instructions are intended specifically for adding a user on CentOS 6.5.I’ll be working from a Liquid Web Core Managed CentOS 6.5 server, and I’ll be logged in as root.Step 1: Add the User It’s just one simple command to add a user. In this case, we’re adding a user called mynewuser : adduser mynewuser Now set the password for the new user: passwd mynewuser Step 2: Grant Root Privileges to the User For a refresher on editing files with vim see: New User Tutorial: Overview of the Vim Text Editor visudo Find the following code: ## Allow  root to run any commands anywhere root ALL=(ALL) ALL In this case, we’re granting root privileges to the user mynewuser . Add the following below that code: to write press i to save give esc and :wq mynewuser ALL=(ALL) ALL Then exit and save the file with the command :wq . If you’ve followed the instruction above correctly, then you should now have a user setup by the name of mynewuser which can use sudo to run commands as root!",
+      "id": "262d030d-eba0-4940-bef4-c9f4f6dbc2e3"
+    },
+    {
+      "question": "git init",
+      "answer": "git remote add origin git repository",
+      "id": "e2eca1c1-1641-420c-926c-65ad1151a8fe"
+    },
+    {
+      "question": "remove remote repository",
+      "answer": "git addgit remote rm origin",
+      "id": "9e8e16eb-7f68-47c8-8bed-ec492c1327da"
+    },
+    {
+      "question": "re-adding another repository using below",
+      "answer": "git remote set-url origin git://newurl",
+      "id": "4547c166-5919-40a8-bdda-239a0b9673f4"
+    },
+    {
+      "question": "How can i determine the URL that a local git repository",
+      "answer": "git config --get remote.origin.url",
+      "id": "aaee7bfd-6b2a-4845-864b-4ef7019fb1c4"
+    },
+    {
+      "question": "Git Branch Creation",
+      "answer": "git branch contact-branches",
+      "id": "945ede10-4e79-41cb-8584-2cfb12169bbe"
+    },
+    {
+      "question": "Switch Branch",
+      "answer": "git checkout contact-changes",
+      "id": "7d042978-9861-4a9f-b4a1-b3850357607f"
+    },
+    {
+      "question": "Again switch to master",
+      "answer": "git checkout master",
+      "id": "121dcca7-f73f-4291-8a1a-b346f1ba2b32"
+    },
+    {
+      "question": "Merge Branches into master",
+      "answer": "git merge contact-changes",
+      "id": "c5d2764a-dfeb-4eaa-ae0e-4e1cfb10e9a5"
+    },
+    {
+      "question": "Delete Branch",
+      "answer": "git branch –d contact-changes",
+      "id": "cdc95648-3068-44ec-b1cb-9210c026b2d1"
+    },
+    {
+      "question": "What is your date of birth",
+      "answer": "June -20",
+      "id": "7251d770-a76c-45c8-8db8-f9f649ea2a3b"
+    },
+    {
+      "question": "create a file using command prompt",
+      "answer": "type NUL > db.json, where db.json is the name of the file",
+      "id": "8b477cb9-5862-48cb-b176-2658ed5688f3"
+    },
+    {
+      "question": "List of angularjs controls link",
+      "answer": "https://material.angularjs.org/latest/demo/dialog",
+      "id": "95337c9e-918f-4b79-8bbe-82e93da4d7c9"
+    },
+    {
+      "question": "What is your favourite Color",
+      "answer": "Black",
+      "id": "9cff12e0-f7cf-4766-ac0a-510baa8e83e0"
+    },
+    {
+      "question": "Start any Spring project",
+      "answer": "https://start.spring.io/",
+      "id": "bac96f0d-c415-4c3f-9dd0-37b6399ca35f"
+    },
+    {
+      "question": "Structured Vs Unstructured",
+      "answer": " Structured Data :Structured data is in the form of rows and columns. Ex: Passenger data information in flight. UnStructured Data: The data which is not instructured format is called unstructured data. EX: facebook, twitter, linkedin etc.",
+      "id": "62a26228-5c5e-4d1b-8fdc-c0102c5b513d"
+    },
+    {
+      "question": "Features of HDFS",
+      "answer": " 1.HIGHLY FAULT-TOLERANT : Fault tolerance is the property that enables a system to continue operating properly in the event of the failure of some of its components. HDFS itself has a mechanism of highly fault-tolerant. Fot that we replicate data in multiple machines. A single data is not stored in a single machine, it is stored in the minimum of 3 machines.    2. HIGH THROUGHPUT : the quantity of raw material or information processed or communicated in a given period, especially by the computer. if we use useg 1 machine it takes 45mintes, if we take 10 machines it takes 4.5 minutes. Thiis is why it is hight throughtput. Yahoo uses 5000 of clusters to retrieve the data. throughtput is the amount of time it reads the data. It reads the data in paralle.     3. SUITABLE FOR APPLICATIONS WITH LARGE DATA SETS : Always makes the file size is larger    4. STREAMING ACCESS TO FILE SYSTEM DATA : Write Once and Read Many Times. You will not update the records again & again     5. CAN BUILD OUT OF COMMODITY HARDWARE :  It means without using highend servers it works fine. ",
+      "id": "a65adc99-2ec6-43d2-8bd9-5e55fdf26fe3"
+    }
+  ]
+}

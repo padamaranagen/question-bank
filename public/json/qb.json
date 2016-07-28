@@ -1,0 +1,94 @@
+{
+  "questionbank": [
+    {
+      "id": "1",
+      "question": "What is your name",
+      "answer": "Nagendra Prasad",
+      "tag": "personal"
+    },
+    {
+      "question": "What is your highest qualification",
+      "Answer": "MCA",
+      "tag": "personal",
+      "id": "7d09af1c-113c-43e7-918a-0d7b85cbf291"
+    },
+    {
+      "question": "Delete Branch",
+      "answer": "git branch –d contact-changes",
+      "tag": "git",
+      "id": "d7dc0225-567c-41fb-81d3-92c7b12d54fd"
+    },
+    {
+      "question": "Merge Branches into master",
+      "answer": "git merge contact-changes",
+      "tag": "git",
+      "id": "10caf099-6bed-4512-9684-2e66ab344bb6"
+    },
+    {
+      "question": "Switch Branch",
+      "answer": "git checkout contact-changes",
+      "tag": "git",
+      "id": "337a5626-948a-4780-a35d-0f251bcb82ff"
+    },
+    {
+      "question": "Structured Vs Unstructured",
+      "answer": " Structured Data :Structured data is in the form of rows and columns. Ex: Passenger data information in flight. UnStructured Data: The data which is not instructured format is called unstructured data. EX: facebook, twitter, linkedin etc.",
+      "tag": "hadoop",
+      "id": "c947e09b-e9c3-4f70-b1b3-c5624b2d7edf"
+    },
+    {
+      "question": "Features of HDFS",
+      "answer": " 1.HIGHLY FAULT-TOLERANT : Fault tolerance is the property that enables a system to continue operating properly in the event of the failure of some of its components. HDFS itself has a mechanism of highly fault-tolerant. Fot that we replicate data in multiple machines. A single data is not stored in a single machine, it is stored in the minimum of 3 machines.    2. HIGH THROUGHPUT : the quantity of raw material or information processed or communicated in a given period, especially by the computer. if we use useg 1 machine it takes 45mintes, if we take 10 machines it takes 4.5 minutes. Thiis is why it is hight throughtput. Yahoo uses 5000 of clusters to retrieve the data. throughtput is the amount of time it reads the data. It reads the data in paralle.     3. SUITABLE FOR APPLICATIONS WITH LARGE DATA SETS : Always makes the file size is larger    4. STREAMING ACCESS TO FILE SYSTEM DATA : Write Once and Read Many Times. You will not update the records again & again     5. CAN BUILD OUT OF COMMODITY HARDWARE :  It means without using highend servers it works fine. ",
+      "tag": "hadoop",
+      "id": "14bbf8ad-e912-4ce5-ac3b-c491e3ed1471"
+    },
+    {
+      "question": "Start any Spring project",
+      "answer": "https://start.spring.io/",
+      "tag": "url",
+      "id": "1dfaf0bd-af35-4dfe-8a19-2002fa4bd492"
+    },
+    {
+      "question": "List of angularjs controls",
+      "answer": "https://material.angularjs.org/latest/demo/dialog",
+      "tag": "url",
+      "id": "e38fc679-cb99-48cc-ad9c-4e779cba4b7a"
+    },
+    {
+      "question": "create a file using command prompt",
+      "answer": "type NUL > db.json, where db.json is the name of the file",
+      "tag": "cmd",
+      "id": "75ed2a31-4e99-42f9-97b9-88477f1cb3b3"
+    },
+    {
+      "question": "Git Branch Creation",
+      "answer": "git branch contact-branches",
+      "tag": "git",
+      "id": "7360b56f-e7ef-4e20-a1dc-82b4f7f03650"
+    },
+    {
+      "question": "How can i determine the URL that a local git repository",
+      "answer": "git config --get remote.origin.url",
+      "tag": "git",
+      "id": "bb95623c-294c-49ac-b357-8abbc22c5a07"
+    },
+    {
+      "question": "re-adding another repository using below",
+      "answer": "git remote set-url origin git://newurl",
+      "tag": "git",
+      "id": "6744fe53-7f98-4972-a11e-37c85e5690de"
+    },
+    {
+      "question": "remove remote repository",
+      "answer": "git addgit remote rm origin",
+      "tag": "git",
+      "id": "e5ddafd2-d71a-4eff-a2bc-a9c23e62721c"
+    },
+    {
+      "question": "git init",
+      "answer": "git remote add origin git repository",
+      "tag": "git",
+      "id": "6fe51b34-2991-476b-9057-81a3dbff210c"
+    }
+  ]
+}
