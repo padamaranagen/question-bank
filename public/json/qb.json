@@ -107,6 +107,36 @@
       "answer": "copy *.csv combine.csv, where copy is the name of the command. combine.csv is the name of the combined file",
       "tag": "cmd",
       "id": "d20e3f9c-71cc-4ae5-b53b-3fc7e4143079"
+    },
+    {
+      "question": "How to select the last record from MYSQL table",
+      "answer": "select * from table_name ORDER BY id desc LIMIT 1",
+      "tag": "mysql",
+      "id": "ebc41ef0-c201-4ed3-8ccc-8b7975763936"
+    },
+    {
+      "question": "org.apache.hadoop.security.AccessControlException: Permission Denied: user:root, access=WRITE, innode=user/cloudera/flume/tweets:cloudera:drwxr-xr-x",
+      "answer": "1. hadoop fs -chmod 777 /user/cloudera  2.hadoop fs -ls -R /user/cloudera",
+      "tag": "flume",
+      "id": "c8aeba9a-8342-4bfe-a754-ab508dfe5cf5"
+    },
+    {
+      "question": "bash: opt/jdk-1.7.0.79/bin/javac:  /lib/id-linux-so-2: bad ELF interpreter no such file or directory",
+      "answer": "Remove 32-bit java  file then replace 64-bit java files",
+      "tag": "java",
+      "id": "848c3d2c-b429-47ab-9a97-35f8b5898fc5"
+    },
+    {
+      "question": "why we use ng-app in angularjs programming",
+      "answer": "ng-app act as a main function of angularjs programming",
+      "tag": "angularjs",
+      "id": "d8ae537f-c786-4f5f-b1b1-f327c4d871e4"
+    },
+    {
+      "question": "$http/$q",
+      "answer": " A service that helps you run functions asynchronously, and use thir return values (or exceptions) when they are done processing. Asynchronous: Asynchronous means you are not aware how much time your request will take to process. Synchronous:  Synchronous means request and reply, it means you are sending something, you are getting the response back immediately.",
+      "tag": "angularjs",
+      "id": "b2247d08-672e-422e-83e4-18871afc088d"
     }
   ]
 }
