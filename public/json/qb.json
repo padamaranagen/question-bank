@@ -143,6 +143,24 @@
       "answer": " http://devicon.fr/",
       "tag": "url",
       "id": "af517c25-0f94-4726-891a-98e3161a7084"
+    },
+    {
+      "question": "What is HBase",
+      "answer": " HBase is a data model that is similar to Google's big table designed to provide quick random access to huge amounts of structured data.",
+      "tag": "hbase",
+      "id": "63bd59e3-c8ca-41a5-98d9-0c9060720d34"
+    },
+    {
+      "question": "Hadoop Random Access Databases",
+      "answer": " 1. HBase, 2. Cassandra, 3. couchDB, 4. Dynamo and 5. MongoDB",
+      "tag": "hbase",
+      "id": "188a2f00-30c4-47af-ad78-7f11f9ee5883"
+    },
+    {
+      "question": "Finding friends with mapreduce",
+      "answer": "http://stevekrenzel.com/finding-friends-with-mapreduce ",
+      "tag": "url",
+      "id": "82162a95-d1ad-458d-bed9-3071ac571485"
     }
   ]
 }
