@@ -161,6 +161,186 @@
       "answer": "http://stevekrenzel.com/finding-friends-with-mapreduce ",
       "tag": "url",
       "id": "82162a95-d1ad-458d-bed9-3071ac571485"
+    },
+    {
+      "question": "Framework Vs Pattern",
+      "answer": "Pattern is the way you can architect your application. Framework provides foundation classes and libraries.",
+      "tag": "struts",
+      "id": "e1daf713-7a46-437f-b5bf-48e42cc3e2bc"
+    },
+    {
+      "question": "MVC",
+      "answer": "Model : Business Services, View : JSP files and Controller: Servlets",
+      "tag": "struts",
+      "id": "753fb8e2-88ea-4768-89de-a9e7f015d087"
+    },
+    {
+      "question": "Spring Vs Struts",
+      "answer": "Apache Struts 2 is an elegant and extensible framework that is used for creating enterprise-level Java web applications. It is designed to streamline the development cycle, starting from building to deployment and maintenance of the application. In Struts, the object that is taking care of a request and routes it for further processing is known as Action. On the other hand, Spring MVC is a part of a huge Spring framework stack containing other Spring modules. This means that it doesn’t allow developers to run it without Spring, but the developers can run the Spring Core without Spring MVC. The Spring MVC (Model View Controller) is designed around a DispatcherServlet, which dispatches the requests to handler with configurable handler mappings, view resolution and theme resolution.While the objects responsible for handling requests and routing for processing in Struts called an Action, the same object is referred as Controller in Spring Web MVC framework. This is one of the very first differences between Spring MVC and Struts2. Struts 2 Actions are initiated every time when a request is made, whereas in Spring MVC the Controllers are created only once, stored in memory and shared among all the requests. So, Spring Web MVC framework is far efficient to handle the requests than Struts 2.",
+      "tag": "struts",
+      "id": "2a13bdce-fdf8-4b6b-97a1-2e024871dea5"
+    },
+    {
+      "question": "sample",
+      "answer": "**",
+      "tag": "cmd",
+      "id": "2aaee01d-6a2c-4726-aeb5-22507867d5ea"
+    },
+    {
+      "question": "how to move files from one folder to another using cmd",
+      "answer": "move source/*.csv destination/",
+      "tag": "cmd",
+      "id": "63af9106-f420-4efc-87ed-b2a1faea89bc"
+    },
+    {
+      "question": "I am looking for Web Deployment Assembly in eclipse",
+      "answer": " Eclipse : Java EE Module Dependencies is replaced by Web Deployment Assembly",
+      "tag": "eclipse",
+      "id": "3c815480-1a61-4f21-93ca-0487b6c4ca83"
+    },
+    {
+      "question": "what is tomcat",
+      "answer": " Tomcat is a servlet container",
+      "tag": "tomcat",
+      "id": "2b01419b-d683-431d-b7cd-2a51aa5a94da"
+    },
+    {
+      "question": "What is the purpose of using filter in struts.xml",
+      "answer": "As you know tomcat always looks for the servlet. Filter obvisiouly execute before all the servlets execute ",
+      "tag": "struts,tomcat",
+      "id": "6cbc65d3-07fd-4c8e-bd2f-04f126cb5e3e"
+    },
+    {
+      "question": "grunt module",
+      "answer": "This will install the latest version of Grunt in your project folder, adding it to your devDependencies (npm install grunt --save-dev)",
+      "tag": "grunt",
+      "id": "f0b60e01-5160-4ebc-9738-98995e0b2adf"
+    },
+    {
+      "question": "grunt-contrib-copy module",
+      "answer": "grunt-contrib-copy is an official grunt plugin for advanced files and folders copying/moving for automated front end development. You can set up a grunt task in your 'build' that will copy certain files and folders to locations that you specify, for example config files, pdf assets. To install this in your project just run : npm install grunt-contrib-copy --save-dev This will add it in node_modules and the flag --save-dev will also add it in devDependencies of package.json",
+      "tag": "grunt",
+      "id": "52867289-fc42-46cc-aff2-1f84a8174f71"
+    },
+    {
+      "question": " grunt-contrib-concat module",
+      "answer": "The grunt-contrib-concat Grunt plugin allows you to configure a concatenation task to target individual files or entire directories",
+      "tag": "grunt",
+      "id": "6feb7be5-ca3a-40d5-bd45-eae817258302"
+    },
+    {
+      "question": "grunt plugins",
+      "answer": "http://gruntjs.com/plugins",
+      "tag": "url",
+      "id": "a03b2742-d7e2-46fe-b601-0a9ee90999af"
+    },
+    {
+      "question": "grunt-contrib-coffee",
+      "answer": "Compile CoffeeScript files to JavaScript",
+      "tag": "grunt",
+      "id": "034e661c-48ca-49c0-8076-6122ef321ecc"
+    },
+    {
+      "question": "grunt-contrib-uglify",
+      "answer": "Minify JavaScript files with UglifyJS",
+      "tag": "grunt",
+      "id": "1d3ccc31-a6ec-4bba-8aad-b0f15b1c721a"
+    },
+    {
+      "question": "grunt-contrib-compass",
+      "answer": "Compile Sass to CSS using Compass",
+      "tag": "grunt",
+      "id": "958365f2-b1eb-485e-a41c-70c5506c3312"
+    },
+    {
+      "question": "grunt-contrib-jshint",
+      "answer": "Validate files with JSHint",
+      "tag": "grunt",
+      "id": "2b789dfa-ac81-417a-8196-0a92490371e0"
+    },
+    {
+      "question": "grunt-contrib-cssmin",
+      "answer": "Minify CSS",
+      "tag": "grunt",
+      "id": "ae9ce1e7-583a-4f44-916d-4bc4ec5f7d9a"
+    },
+    {
+      "question": "grunt-contrib-connect",
+      "answer": "Start a connect web server",
+      "tag": "grunt",
+      "id": "526c22c6-68d2-4d35-8b4d-64b9085da5bf"
+    },
+    {
+      "question": "grunt-contrib-htmlmin",
+      "answer": "Minify HTML",
+      "tag": "grunt",
+      "id": "a82aca9a-e104-4972-a694-f92e785dbf7a"
+    },
+    {
+      "question": "grunt-contrib-imagemin",
+      "answer": "Minify Image",
+      "tag": "grunt",
+      "id": "3e622825-255a-4c99-a1cf-a79c65a94015"
+    },
+    {
+      "question": "grunt-contrib-watch",
+      "answer": " Run predefined tasks whenever watched file patterns are added,changed and deleted",
+      "tag": "grunt",
+      "id": "8d8e214e-bdc6-42ed-b2ea-1c08c6767fce"
+    },
+    {
+      "question": "grunt-usemin",
+      "answer": " Replaces references to non-optimized scripts or stylesheets into a set of HTML files ( or any templates/views)",
+      "tag": "grunt",
+      "id": "d177741c-0790-4da3-b1b1-22d53a8d3ebd"
+    },
+    {
+      "question": "grunt-rev",
+      "answer": "Static file asset revisioning through content hashing",
+      "tag": "grunt",
+      "id": "b6e1265a-b41c-4ca4-9fe7-63dc3f73d528"
+    },
+    {
+      "question": "grunt-karma",
+      "answer": "grunt plugin for karma test runner",
+      "tag": "grunt",
+      "id": "f6e2387d-65e3-4472-9e94-7d7ab7094da2"
+    },
+    {
+      "question": "grunt-open",
+      "answer": "Open urls and files from a grunt task",
+      "tag": "grunt",
+      "id": "c1beb178-674a-4b01-9a01-ec3ad8c34e06"
+    },
+    {
+      "question": "grunt-concurrent",
+      "answer": "Run grunt task concurrently",
+      "tag": "grunt",
+      "id": "d61388ee-3603-4a13-b3be-16c41163b213"
+    },
+    {
+      "question": "matchdep",
+      "answer": "Matchdep is a tool which can filter node.js dependencies, which are in the package.json file.",
+      "tag": "grunt",
+      "id": "1e13614f-15f8-4c05-b554-55c87c382dcb"
+    },
+    {
+      "question": "connect-livereload",
+      "answer": "Live reload the changes we made",
+      "tag": "grunt",
+      "id": "1d79e08d-07c4-4936-9e86-b4a653ee6e94"
+    },
+    {
+      "question": "grunt-google-cdn",
+      "answer": "Grunt task for substituting JS libraries with CDN versions.",
+      "tag": "grunt",
+      "id": "0ee530c9-5f8e-4ea0-a7ae-0b3004f7e097"
+    },
+    {
+      "question": "grunt-ngmin",
+      "answer": "Grunt task for minifying AngularJS projects (modified to not remove comments)",
+      "tag": "grunt",
+      "id": "f46e0def-6b0b-4519-946e-745f2c44d50c"
     }
   ]
 }
