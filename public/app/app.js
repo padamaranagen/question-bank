@@ -5,7 +5,8 @@
 /**
  * Configure the Routes
  */
-app.config(['$routeProvider', function ($routeProvider) {
+app.config(['$routeProvider', '$locationProvider', function ($routeProvider, $locationProvider) {
+    $locationProvider.html5Mode(true);
   $routeProvider
     //------------------ Home
     .when("/", {
@@ -23,6 +24,8 @@ app.config(['$routeProvider', function ($routeProvider) {
 
     //------------------else 404
     .otherwise("/404", {templateUrl: "views/404.html"});
+
+    
 }]);
 
 
