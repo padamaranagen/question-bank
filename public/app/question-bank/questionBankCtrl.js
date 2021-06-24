@@ -3,7 +3,7 @@ var app = angular.module('QuestionBank', []);
 
 app.controller('QuestionBankCtrl', ['$scope', '$http', function ($scope, $http) {
     $http({    
-        url:'https://api.jsonbin.io/b/5cc3acfde04b2c0bd81d5307',
+        url:'https://nagen-node-api.herokuapp.com/api/qb',
         method: 'GET',
     })
     .then(function mySuccess(response) {
